@@ -12,6 +12,7 @@ import java.util.Random;
 
 @WebServlet(value = "/send")
 public class SendServlet extends HttpServlet {
+    //test
     //验证码的提交主要是表单提交，所以在doPost()方法内写
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String phone_no = request.getParameter("phone_no");
